@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap Css -->
+    <link rel="stylesheet" href="./view/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="./view/images/icon.png" type="image/x-icon">
+    <title>Online Shop</title>
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="./view/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5 fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#" font-weight="500">
+                    <img src="./view/images/logo.png" width="159" height="41" class="d-inline-block align-top pt-49 pb-69"
+                        alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#shoes">Shoes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#backpacks">Backpack</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#watches">Watches</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./view/Login.php">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+
+        <!-- Catagories -->
+<section class="categories container my-5">
+    <div class="container">
+        <div class="row g-4 d-flex flex-row">
+            <div class="col-lg-4 col-md-6">
+                <a href="#shoes" style="text-decoration: none;">
+                    <div class="p-3 border bg-success d-flex align-items-center justify-content-between rounded-3 cat3">
+                        <h1 class="text-white">Shoes</h1>
+                        <img src="./view/images/categories/shoes.png" alt="">
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <a href="#backpacks" style="text-decoration: none;">
+                    <div class="p-3 border bg-primary d-flex align-items-center justify-content-between rounded-3 cat2">
+                        <h1 class="text-white">Backpacks</h1>
+                        <img src="./view/images/categories/bag.png" alt="">
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <a href="#watches" style="text-decoration: none;">
+                    <div class="p-3 border bg-warning d-flex align-items-center justify-content-between rounded-3 cat1">
+                        <h1 class="text-white">Watches</h1>
+                        <img src="./view/images/categories/watch.png" alt="">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+        <!-- Products -->
+        <div class='products' style="margin-bottom: 150px;">
+            <!-- Shoes -->
+            <section id="shoes" class="container my-5">
+                <h2>Shoes</h2>
+                <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
+                    <div class="col">
+                        <div class="card h-100 border-0 shadow-lg">
+                            <img src="./view/images/shoes/shoe-1.png" class="card-img-top" alt="Supply 350">
+                            <div class="card-body">
+                                <h5 class="card-title">Supply 350</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                    additional content. This content is a little bit longer.</p>
+                                <h5>TK 120</h5>
+                            </div>
+                            <div class="m-3">
+                                <a href="./view/login.php"><button class="buy-now-button">Buy Now >></button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-0 shadow-lg">
+                            <img src="./view/images/shoes/shoe-2.png" class="card-img-top" alt="Nike 360">
+                            <div class="card-body">
+                                <h5 class="card-title">Nike 360</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                    content.</p>
+                                <h5>TK 320</h5>
+                            </div>
+                            <div class="m-3">
+                                <a href="./view/login.php"><button class="buy-now-button">Buy Now >></button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-0 shadow-lg">
+                            <img src="./view/images/shoes/shoe-3.png" class="card-img-top" alt="Red Airmax">
+                            <div class="card-body">
+                                <h5 class="card-title">Red Airmax</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                    additional content. This card has even longer content than the first to show that equal
+                                    height action.</p>
+                                <h5>TK 350</h5>
+                            </div>
+                            <div class="m-3">
+                                <a href="./view/login.php"><button class="buy-now-button">Buy Now >></button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Backpacks -->
+            <section id="backpacks" class="container my-5">
+                <h2>Backpacks</h2>
+                <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
+                    <div class="col">
+                        <div class="card h-100 border-0 shadow-lg">
+                            <img src="./view/images/bags/bag-1.png" class="card-img-top" alt="Red Bag">
+                            <div class="card-body">
+                                <h5 class="card-title">Red Bag</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                    additional content. This content is a little bit longer.</p>
+                                <h5>TK 120</h5>
+                            </div>
+                            <div class="m-3">
+                                <a href="./view/login.php"><button class="buy-now-button">Buy Now >></button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-0 shadow-lg">
+                            <img src="./view/images/bags/bag-2.png" class="card-img-top" alt="Blue Bag">
+                            <div class="card-body">
+                                <h5 class="card-title">Blue Bag</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                    content.</p>
+                                <h5>TK 320</h5>
+                            </div>
+                            <div class="m-3">
+                                <a href="./view/login.php"><button class="buy-now-button">Buy Now >></button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-0 shadow-lg">
+                            <img src="./view/images/bags/bag-3.png" class="card-img-top" alt="Black Bag">
+                            <div class="card-body">
+                                <h5 class="card-title">Black Bag</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                    additional content. This card has even longer content than the first to show that equal
+                                    height action.</p>
+                                <h5>TK 350</h5>
+                            </div>
+                            <div class="m-3">
+                                <a href="./view/login.php"><button class="buy-now-button">Buy Now >></button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Watches -->
+            <section id="watches" class="container my-5">
+                <h2>Watches</h2>
+                <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
+                    <div class="col">
+                        <div class="card h-100 border-0 shadow-lg">
+                            <img src="./view/images/watches/watch-1.png" class="card-img-top" alt="DATEJUST 36">
+                            <div class="card-body">
+                                <h5 class="card-title">Rolex DATEJUST 36</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                    additional content. This content is a little bit longer.</p>
+
+                                <h5>TK 120</h5>
+                            </div>
+                            <div class="m-3">
+                                <a href="./view/login.php"><button class="buy-now-button">Buy Now >></button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-0 shadow-lg">
+                            <img src="./view/images/watches/watch-2.png" class="card-img-top" alt="Patek Philippe">
+                            <div class="card-body">
+                                <h5 class="card-title">Patek Philippe</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                    content.</p>
+
+                                <h5>TK 320</h5>
+                            </div>
+                            <div class="m-3">
+                                <a href="./view/login.php"><button class="buy-now-button">Buy Now >></button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-0 shadow-lg">
+                            <img src="./view/images/watches/watch-3.png" class="card-img-top" alt="Jaeger-LeCoultre">
+                            <div class="card-body">
+                                <h5 class="card-title">Jaeger-LeCoultre</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                    additional content. This card has even longer content than the first to show that equal
+                                    height action.</p>
+                                <h5>TK 350</h5>
+                            </div>
+                            <div class="m-3">
+                                <a href="./view/login.php"><button class="buy-now-button">Buy Now >></button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50">
+        <div class="container text-center">
+            <small>Copyright &copy; AIUBians</small>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Js -->
+    <script src="./view/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
